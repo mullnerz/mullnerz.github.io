@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+    <!-- Post Section -->
+    
+    <section id="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <article class="post">
+                        <h1 class="post-title text-center">{{ page.title }}</h1>
+                        <p class="post-meta text-center">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} - {{ page.author }}{% endif %}{% if page.meta %} - {{ page.meta }}{% endif %}</p>
+                        <div class="post-entry">
+                            {{ content }}
+                        </div>
+                    </article>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    {% include disqus.html disqus_identifier=page.disqus_identifier %}
+                </div>
+            </div>
+        </div>
+    </section>
+
