@@ -30,6 +30,9 @@ address:
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
 
+# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+google_analytics: 
+
 # Build settings
 markdown: kramdown
 permalink: pretty
