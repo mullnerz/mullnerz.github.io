@@ -35,4 +35,5 @@ google_analytics:
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
 permalink: pretty
