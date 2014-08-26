@@ -27,6 +27,9 @@ address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
 
+# Your disqus shortname, entering this will enable commenting on posts
+disqus: 
+
 # Build settings
 markdown: kramdown
 permalink: pretty
