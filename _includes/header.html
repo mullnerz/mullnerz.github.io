@@ -54,20 +54,31 @@
     </nav>
 
     <!-- Header -->
-    <header>
+    {% if page.hero %}
+    <header class="hero">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <img class="img-responsive" src="{{ "/img/profile.png" | prepend: site.baseurl }}" alt="">
+                    {% if page.hero-image %}
+                    <img class="img-responsive" src="{{ page.hero-image | prepend: site.baseurl }}" alt="">
+                    {% endif %}
+                    {% if page.hero-title %}
                     <div class="intro-text">
-                        <span class="name">{{ site.title }}</span>
+                        <span class="name">{{ page.hero-title }}</span>
+                        {% if page.hero-subtitle %}
                         <hr class="star-light">
-                        <span class="skills">Web Developer - Graphic Artist - User Experience Designer</span>
+                        <span class="skills">{{ page.hero-subtitle }}</span>
+                        {% endif %}
                     </div>
+                    {% endif %}
                 </div>
             </div>
         </div>
     </header>
+    {% else %}
+    <header class="nohero">
+    </header>
+    {% endif %}
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
