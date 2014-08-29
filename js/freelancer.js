@@ -15,6 +15,24 @@ $(function() {
     });
 });
 
+//Scroll to anchor on new page load
+$(document).ready(function(e){  
+  //This a page anchor link? 
+    if (location.hash) {        
+        var str=location.hash; 
+        var target=str.replace("_","");
+        $('html, body').stop().animate({
+            scrollTop: $(target).offset().top
+        }, 1500, 'easeInOutExpo');
+
+        setTimeout(function() {
+            var str=location.href; 
+            var target=str.replace("#_","#");
+            location.replace(target);
+        }, 1500);
+    }
+});
+
 // Floating label headings for the contact form
 $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {
