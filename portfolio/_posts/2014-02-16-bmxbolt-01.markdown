@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 3
+date: 2014-02-16
+img: bmxbolt-01.jpg
+alt: BmxBolt Website
+project-date: February 2014
+client: BmxBolt
+category: Web Development
+description: TODO
+
+---
