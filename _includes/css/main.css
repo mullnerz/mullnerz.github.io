@@ -473,12 +473,92 @@ footer .footer-below {
 
 /* Page layout styles
 -------------------------------------------------- */
-.page p {
-    font-size: 20px;
-    margin: 1em 0 1em;
+.page,
+.post {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    line-height: 1.7; 
+    color: #2c3e50;
 }
 
-.page li {
-    font-size: 20px;
-    margin: 0.25em 0 0.25em;
+.page p,
+.post p {
+    font-size: 18px;
+    /*margin: 5.25px 0 10.5px;*/
+}
+
+.page pre,
+.post pre {
+    font-size: 16px;
+    /*margin: 5.25px 0 10.5px;*/
+    font-family: "Ubuntu Mono", Consolas,"Courier New",monospace;
+}
+
+.page li,
+.post li {
+    font-size: 18px;
+    /*margin: 0.2em 0 0.4em;*/
+}
+
+section.page,
+section.post {
+    padding: 50px 0;
+}
+
+section.page h1, 
+section.page h2, 
+section.page h3, 
+section.page h4, 
+section.page h5, 
+section.page h6,
+
+section.post h1, 
+section.post h2, 
+section.post h3, 
+section.post h4, 
+section.post h5, 
+section.post h6 {
+    text-transform: none;
+}
+
+.page table,
+.post table {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+.page th, .page td,
+.post th, .post td {
+    border: 1px solid #cccccc;
+}
+
+ul.posts {
+    padding-left: 0;
+}
+
+ul.posts li {
+    list-style-type: none;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+ul.posts span.post-date {    
+    margin-right: 0.5em;
+    display: inline-block;
+    color: #666;
+    font-family: "Ubuntu Mono", Consolas,"Courier New",monospace;
+}
+
+ul.posts span.post-intro-text {
+    color: #666;
+}
+
+.page-subtitle,
+.post-meta {
+    font-style: italic;
+    color: #666;
+}
+
+div.comments {
+    padding: 50px 0 0;
 }
