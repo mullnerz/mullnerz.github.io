@@ -559,6 +559,10 @@ ul.posts span.post-intro-text {
     color: #666;
 }
 
+.post-meta-sep {
+    margin: 0 5px;
+}
+
 div.comments {
     padding: 50px 0 0;
 }

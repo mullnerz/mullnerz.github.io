@@ -9,7 +9,10 @@ layout: default
                 <div class="col-lg-8 col-lg-offset-2">
                     <article class="post">
                         <h1 class="post-title">{{ page.title }}</h1>
-                        <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} - {{ page.author }}{% endif %}{% if page.meta %} - {{ page.meta }}{% endif %}</p>
+                        <p class="post-meta">
+                            {{ page.date | date: "%b %-d, %Y" }}
+                            {% if page.author %} <span class="post-meta-sep"> / </span> {{ page.author }}{% endif %}
+                            {% if page.meta %} <span class="post-meta-sep"> / </span> {{ page.meta }}{% endif %}</p>
                         <div class="post-entry">
                             {{ content }}
                         </div>
