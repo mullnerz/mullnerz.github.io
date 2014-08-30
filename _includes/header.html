@@ -43,7 +43,11 @@
                         <a href="{{ "/#_contact" | prepend: site.baseurl }}">Contact</a>
                         {% endif %}
                     </li>
-                    <li class="page-scroll">
+                    {% if page.categories contains 'blog' %}
+                    <li class="active">
+                    {% else %}
+                    <li class="">
+                    {% endif %}
                         <a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a>
                     </li>
                 </ul>
