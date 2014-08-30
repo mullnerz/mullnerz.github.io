@@ -4,8 +4,10 @@ modal-id: 3
 date: 2014-02-16
 img: bmxbolt-01.jpg
 alt: BmxBolt Website
+project-url: 
 project-date: February 2014
 client: BmxBolt
+client-url: 
 category: Web Development
 description: TODO
 
