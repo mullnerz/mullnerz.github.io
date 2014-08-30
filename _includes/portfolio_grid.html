@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Portfolio</h2>
+                    <h2>Latest works</h2>
                     <hr class="star-primary">
                 </div>
             </div>
@@ -19,6 +19,8 @@
                             </div>
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
                         </a>
+                        <h4>{{ post.alt }}</h4  >
+                        <p class="small">{{ post.category }} | <span>{{ post.project-date }}<span></p>
                     </div>
                 {% endfor %}
             </div>
