@@ -1,5 +1,6 @@
 ---
 layout: page
+published: true
 ---
 
 # Typography 
@@ -8,14 +9,14 @@ layout: page
 
 Headings from `h1` through `h6` are constructed with a `#` for each level:
 
-~~~ markdown
+```text
 # h1 Heading
 ## h2 Heading
 ### h3 Heading
 #### h4 Heading
 ##### h5 Heading
 ###### h6 Heading
-~~~
+```
 
 Renders to:
 
@@ -33,14 +34,14 @@ Renders to:
 
 HTML:
 
-~~~ html
+```html
 <h1>h1 Heading</h1>
 <h2>h2 Heading</h2>
 <h3>h3 Heading</h3>
 <h4>h4 Heading</h4>
 <h5>h5 Heading</h5>
 <h6>h6 Heading</h6>
-~~~
+```
 {% highlight html %}
 <h1>h1 Heading</h1>
 <h2>h2 Heading</h2>
@@ -82,14 +83,14 @@ Body copy written as normal, plain text will be wrapped with `<p></p>` tags in t
 
 So this body copy:
 
-~~~ markdown
+```text
 Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
-~~~
+```
 renders to this HTML:
 
-~~~ html
+```html
 <p>Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.</p>
-~~~
+```
 
 
 <br>
@@ -104,27 +105,27 @@ For emphasizing a snippet of text with a heavier font-weight.
 
 The following snippet of text is **rendered as bold text**.
 
-~~~ markdown
+```text
 **rendered as bold text**
-~~~
+```
 renders to:
 
 **rendered as bold text**
 
 and this HTML
 
-~~~ html
+```html
 <strong>rendered as bold text</strong>
-~~~
+```
 
 ### Italics
 For emphasizing a snippet of text with italics.
 
 The following snippet of text is _rendered as italicized text_.
 
-~~~ markdown
+```text
 _rendered as italicized text_
-~~~
+```
 
 renders to:
 
@@ -132,17 +133,17 @@ _rendered as italicized text_
 
 and this HTML:
 
-~~~ html
+```html
 <em>rendered as italicized text</em>
-~~~
+```
 
 
 ### strikethrough
 In GFM you can do strickthroughs. 
 
-~~~ markdown
+```text
 ~~Strike through this text.~~
-~~~
+```
 Which renders to:
 
 ~~Strike through this text.~~
@@ -158,9 +159,9 @@ For quoting blocks of content from another source within your document.
 
 Add `>` before any text you want to quote. 
 
-~~~ markdown
+```text
 Add `>` before any text you want to quote. 
-~~~
+```
 
 Renders to:
 
@@ -168,22 +169,22 @@ Renders to:
 
 and this HTML:
 
-~~~ html
+```html
 <blockquote>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
 </blockquote>
-~~~
+```
 
 Blockquotes can also be nested:
 
-~~~ markdown
+```text
 > Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. 
 Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. 
 >> Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor 
 odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
 >>> Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue. 
 Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi. 
-~~~
+```
 
 Renders to:
 
@@ -207,15 +208,15 @@ A list of items in which the order of the items does not explicitly matter.
 
 You may use any of the following symbols to denote bullets for each list item:
 
-~~~markdown
+```text
 * valid bullet
 - valid bullet
 + valid bullet
-~~~
+```
 
 For example
 
-~~~ markdown
+```text
 + Lorem ipsum dolor sit amet
 + Consectetur adipiscing elit
 + Integer molestie lorem at massa
@@ -228,7 +229,7 @@ For example
 + Faucibus porta lacus fringilla vel
 + Aenean sit amet erat nunc
 + Eget porttitor lorem
-~~~
+```
 Renders to:
 
 + Lorem ipsum dolor sit amet
@@ -246,7 +247,7 @@ Renders to:
 
 And this HTML
 
-~~~ html
+```html
 <ul>
   <li>Lorem ipsum dolor sit amet</li>
   <li>Consectetur adipiscing elit</li>
@@ -264,13 +265,13 @@ And this HTML
   <li>Aenean sit amet erat nunc</li>
   <li>Eget porttitor lorem</li>
 </ul>
-~~~
+```
 
 ### Ordered
 
 A list of items in which the order of items does explicitly matter.
 
-~~~ markdown
+```text
 1. Lorem ipsum dolor sit amet
 2. Consectetur adipiscing elit
 3. Integer molestie lorem at massa
@@ -279,7 +280,7 @@ A list of items in which the order of items does explicitly matter.
 6. Faucibus porta lacus fringilla vel
 7. Aenean sit amet erat nunc
 8. Eget porttitor lorem
-~~~
+```
 Renders to:
 
 1. Lorem ipsum dolor sit amet
@@ -293,7 +294,7 @@ Renders to:
 
 And this HTML:
 
-~~~ html
+```html
 <ol>
   <li>Lorem ipsum dolor sit amet</li>
   <li>Consectetur adipiscing elit</li>
@@ -304,11 +305,11 @@ And this HTML:
   <li>Aenean sit amet erat nunc</li>
   <li>Eget porttitor lorem</li>
 </ol>
-~~~
+```
 
 **TIP**: If you just use `1.` for each number, GitHub will automatically number each item. For example:
 
-~~~ markdown
+```text
 1. Lorem ipsum dolor sit amet
 1. Consectetur adipiscing elit
 1. Integer molestie lorem at massa
@@ -317,7 +318,7 @@ And this HTML:
 1. Faucibus porta lacus fringilla vel
 1. Aenean sit amet erat nunc
 1. Eget porttitor lorem
-~~~
+```
 
 Renders to:
 
@@ -343,21 +344,21 @@ Wrap inline snippets of code with `` ` ``.
 
 For example, `<section></section>` should be wrapped as "inline".
 
-~~~ html
+```html
 For example, `<section></section>` should be wrapped as "inline".
-~~~
+```
 
 
 ### Indented code
 
 Or indent several lines of code by at least four spaces, as in:
 
-~~~ js
+```js
     // Some comments
     line 1 of code
     line 2 of code
     line 3 of code
-~~~
+```
 
     // Some comments
     line 1 of code
@@ -367,33 +368,33 @@ Or indent several lines of code by at least four spaces, as in:
 
 ### Block code "fences"
 
-Use "fences"  ~~~` ~~~ ~~~` to block in multiple lines of code. 
+Use "fences"  ```````````to block in multiple lines of code. 
 
 <pre>
-~~~ html
+```html
 Sample text here...
-~~~
+```
 </pre>
 
 
-~~~
+```
 Sample text here...
-~~~
+```
 
 HTML:
 
-~~~ html
+```html
 <pre>
   <p>Sample text here...</p>
 </pre>
-~~~
+```
 
 ### Syntax highlighting
 
-GFM, or "GitHub Flavored Markdown" also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code "fence", ` ~~~ js `, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:
+GFM, or "GitHub Flavored Markdown" also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code "fence", ` ```js `, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:
 
 <pre>
-~~~ javascript
+```javascript
 grunt.initConfig({
   assemble: {
     options: {
@@ -412,12 +413,12 @@ grunt.initConfig({
     }
   }
 };
-~~~
+```
 </pre>
 
 Renders to:
 
-~~~ javascript
+```javascript
 grunt.initConfig({
   assemble: {
     options: {
@@ -436,11 +437,11 @@ grunt.initConfig({
     }
   }
 };
-~~~
+```
 
 And this complicated HTML:
 
-~~~ xml
+```xml
 <div class="highlight"><pre><span class="nx">grunt</span><span class="p">.</span><span class="nx">initConfig</span><span class="p">({</span>
   <span class="nx">assemble</span><span class="o">:</span> <span class="p">{</span>
     <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
@@ -460,7 +461,7 @@ And this complicated HTML:
   <span class="p">}</span>
 <span class="p">};</span>
 </pre></div>
-~~~
+```
 
 
 <br>
@@ -473,16 +474,17 @@ And this complicated HTML:
 Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.
 
 
-~~~ markdown
+```text
 | Option | Description |
 | ------ | ----------- |
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
-~~~
+```
 
 Renders to:
 
+{class: table}
 | Option | Description |
 | ------ | ----------- |
 | data   | path to data files to supply the data that will be passed into templates. |
@@ -491,7 +493,7 @@ Renders to:
 
 And this HTML:
 
-~~~ html
+```html
 <table>
   <tr>
     <th>Option</th>
@@ -510,19 +512,19 @@ And this HTML:
     <td>extension to be used for dest files.</td>
   </tr>
 </table>
-~~~
+```
 
 ### Right aligned text
 
 Adding a colon on the right side of the dashes below any heading will right align text for that column.
 
-~~~ markdown
+```text
 | Option | Description |
 | ------:| -----------:|
 | data   | path to data files to supply the data that will be passed into templates. |
 | engine | engine to be used for processing templates. Handlebars is the default. |
 | ext    | extension to be used for dest files. |
-~~~
+```
 
 | Option | Description |
 | ------:| -----------:|
@@ -540,9 +542,9 @@ Adding a colon on the right side of the dashes below any heading will right alig
 
 ### Basic link
 
-~~~ markdown
+```text
 [Assemble](http://assemble.io)
-~~~
+```
 
 Renders to (hover over the link, there is no tooltip):
 
@@ -550,16 +552,16 @@ Renders to (hover over the link, there is no tooltip):
 
 HTML:
 
-~~~ html
+```html
 <a href="http://assemble.io">Assemble</a>
-~~~
+```
 
 
 ### Add a title
 
-~~~ markdown
+```text
 [Upstage](https://github.com/upstage/ "Visit Upstage!")
-~~~
+```
 
 Renders to (hover over the link, there should be a tooltip):
 
@@ -567,23 +569,23 @@ Renders to (hover over the link, there should be a tooltip):
 
 HTML:
 
-~~~ html
+```html
 <a href="https://github.com/upstage/" title="Visit Upstage!">Upstage</a>
-~~~
+```
 
 ### Named Anchors
 
 Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:
 
-~~~markdown
+```text
 # Table of Contents
   * [Chapter 1](#chapter-1)
   * [Chapter 2](#chapter-2)
   * [Chapter 3](#chapter-3)
-~~~
+```
 will jump to these sections:
 
-~~~markdown
+```text
 ## Chapter 1 <a id="chapter-1"></a>
 Content for chapter one.
 
@@ -592,7 +594,7 @@ Content for chapter one.
 
 ## Chapter 3 <a id="chapter-3"></a>
 Content for chapter one.
-~~~
+```
 **NOTE** that specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.
 
 
@@ -604,22 +606,23 @@ Content for chapter one.
 ## Images
 Images have a similar syntax to links but include a preceding exclamation point.
 
-~~~ markdown
+```text
 ![Minion](http://octodex.github.com/images/minion.png)
-~~~
+```
 ![Minion](http://octodex.github.com/images/minion.png)
 
 or
-~~~ markdown
+
+```text
 ![Alt text](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
-~~~
+```
 ![Alt text](http://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 
 Like links, Images also have a footnote style syntax
 
-~~~ markdown
+```text
 ![Alt text][id]
-~~~
+```
 ![Alt text][id]
 
 With a reference later in the document defining the URL location:
