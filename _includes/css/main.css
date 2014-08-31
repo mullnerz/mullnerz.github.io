@@ -496,10 +496,6 @@ footer .footer-below {
     font-size: 16px;
 }
 
-code, kbd, pre, samp {
-    font-family: "Ubuntu Mono",Consolas,"Courier New",monospace;
-}
-
 section.page,
 section.post {
     padding: 50px 0;
@@ -535,7 +531,7 @@ ul.posts span.post-date {
     margin-right: 0.5em;
     display: inline-block;
     color: #666;
-    font-family: "Ubuntu Mono",Consolas,"Courier New",monospace;
+    font-family: Consolas,"Courier New",monospace;
 }
 
 ul.posts span.post-intro-text {
