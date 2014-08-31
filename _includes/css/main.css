@@ -484,20 +484,20 @@ footer .footer-below {
 .page p,
 .post p {
     font-size: 18px;
-    /*margin: 5.25px 0 10.5px;*/
-}
-
-.page pre,
-.post pre {
-    font-size: 16px;
-    /*margin: 5.25px 0 10.5px;*/
-    font-family: "Ubuntu Mono", Consolas,"Courier New",monospace;
 }
 
 .page li,
 .post li {
     font-size: 18px;
-    /*margin: 0.2em 0 0.4em;*/
+}
+
+.page pre,
+.post pre {
+    font-size: 16px;
+}
+
+code, kbd, pre, samp {
+    font-family: "Ubuntu Mono",Consolas,"Courier New",monospace;
 }
 
 section.page,
@@ -546,7 +546,7 @@ ul.posts span.post-date {
     margin-right: 0.5em;
     display: inline-block;
     color: #666;
-    font-family: "Ubuntu Mono", Consolas,"Courier New",monospace;
+    font-family: "Ubuntu Mono",Consolas,"Courier New",monospace;
 }
 
 ul.posts span.post-intro-text {
