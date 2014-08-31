@@ -201,7 +201,7 @@ section {
     padding: 100px 0;
 }
 
-.mainpage section h2 {
+.index section h2 {
     margin: 0;
     font-size: 3em;
 }
@@ -521,17 +521,6 @@ section.post h6 {
     text-transform: none;
 }
 
-.page table,
-.post table {
-    border: 1px solid #cccccc;
-    border-radius: 4px;
-}
-
-.page th, .page td,
-.post th, .post td {
-    border: 1px solid #cccccc;
-}
-
 ul.posts {
     padding-left: 0;
 }
@@ -565,4 +554,13 @@ ul.posts span.post-intro-text {
 
 div.comments {
     padding: 50px 0 0;
+}
+
+a.post-link {
+    color: inherit;
+    text-decoration: none;
+}
+a.post-link:hover {
+    color: #{{ site.color.primary }};
+    text-decoration: none;
 }
