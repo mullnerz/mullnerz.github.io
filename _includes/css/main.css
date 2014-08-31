@@ -496,6 +496,10 @@ footer .footer-below {
     font-size: 16px;
 }
 
+code, kbd, pre, samp {
+    font-family: "Source Code Pro",Consolas,"Courier New",monospace;
+}
+
 section.page,
 section.post {
     padding: 50px 0;
