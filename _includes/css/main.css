@@ -475,25 +475,26 @@ footer .footer-below {
 -------------------------------------------------- */
 .page,
 .post {
-    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 18px;
-    line-height: 1.7; 
+    
+    font-family: "Merriweather",Georgia,serif;
+    font-size: 16px;
+    line-height: 1.75; 
     color: #2c3e50;
 }
 
 .page p,
 .post p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .page li,
 .post li {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .page pre,
 .post pre {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 code, kbd, pre, samp {
@@ -519,6 +520,8 @@ section.post h4,
 section.post h5, 
 section.post h6 {
     text-transform: none;
+    font-family: "Open Sans Condensed","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;    
 }
 
 ul.posts {
