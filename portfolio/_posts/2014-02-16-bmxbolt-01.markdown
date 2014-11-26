@@ -9,6 +9,6 @@ project-date: February 2014
 client: BmxBolt
 client-url: 
 category: Web Development
-description: TODO
+description: ...
 title: BmxBolt website
 ---
