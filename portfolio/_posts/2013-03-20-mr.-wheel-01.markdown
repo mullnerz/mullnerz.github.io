@@ -9,6 +9,6 @@ project-date: March 2013
 client: Mr. Wheel
 client-url: http://www.mr-wheel.com
 category: Web Development
-description: TODO
+description: ...
 title: Mr. Wheel website
 ---
