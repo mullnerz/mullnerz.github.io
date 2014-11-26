@@ -9,6 +9,6 @@ project-date: January 2010
 client: bikewebshop.hu
 client-url: 
 category: Web Development
-description: TODO
+description: ...
 title: bikewebshop.hu website
 ---
