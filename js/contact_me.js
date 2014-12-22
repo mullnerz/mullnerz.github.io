@@ -18,7 +18,7 @@ $(function() {
                 firstName = name.split(' ').slice(0, -1).join(' ');
             }
             $.ajax({
-                url: "//forms.brace.io/zoltan@mullner.hu",
+                url: "//formspree.io/zoltan@mullner.hu",
                 dataType: "json",
                 type: "POST",
                 data: {
