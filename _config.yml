@@ -46,8 +46,9 @@ google_analytics: UA-54316532-1
 #markdown: kramdown
 #kramdown:
 #  input: GFM
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
-highlighter: pygments
+#markdown: redcarpet
+#redcarpet:
+#  extensions: ["tables", "autolink", "strikethrough", "space_after_headers", "with_toc_data", "fenced_code_blocks"]
+#highlighter: pygments
+
 permalink: pretty
