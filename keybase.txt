@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/mullnerzoltan
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://zoltan.mullner.hu
+  * I am mullnerzoltan (https://keybase.io/mullnerzoltan) on keybase.
+  * I have a public key with fingerprint 6B3A 60EF CD06 4D65 AEC3  C002 A5BB 9888 6404 00B1
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c908d65f14312bb557f1ec815c01f48cb6653092518f05abc75ebec3354f15790a",
+            "fingerprint": "6b3a60efcd064d65aec3c002a5bb9888640400b1",
+            "host": "keybase.io",
+            "key_id": "a5bb9888640400b1",
+            "kid": "0101c908d65f14312bb557f1ec815c01f48cb6653092518f05abc75ebec3354f15790a",
+            "uid": "95f7a73a354ab2436c34dc1ed1cfdf19",
+            "username": "mullnerzoltan"
+        },
+        "service": {
+            "hostname": "zoltan.mullner.hu",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1466063056,
+    "expire_in": 157680000,
+    "prev": "381f0e7951c0ad53b230ce6b967dfb6b15d26da65157522c0e4aa741978c8b0e",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMIpAnicrZJbbA1BGMdPtVXqWpK6RKQ24YG2mdndmd09vLSJNCQeUGlRjpnZ2Xbb
+Y/fYs6dKc1xSFCGakJwHlzRS0gYR3ohQgjRKHISQpkkfVCQlbqEoarbqzaN5mcx8
+v/9//t+XuT0pM5SbsbEnL9ShLNub0X2zNRGqoJXpRom65jYp3CjV8ZGNR00e9yN1
+timFJQABZAbQTYwsqCpQphQhzYKc6RAxAC1VZxRjpABDRlC3ACKUaYhTzhQFqRZE
+mgGIVChZtlPNvZhnO76wxVQhGHCLmQCrwpsInAEgE0Spoes6VoEKAIVCWOPGA4UI
+R0mcF9uuuBOHyEi8f/D/OXdixM5AlkY0hYgSobKqYKaoJoPchMwyLWgEYJx7DtnM
+Bb05EY063NvuRn3iSMlCSZTqbcaD6QbtjGJ/6sWjdHFNQrjEPNd3mRsV5Rrfj4UD
+tb8tFuBbOY2MGkWo7ZhioEJQz7247TpSGAqS+XbgDFWMAVYAwoUSb4jZHo/YAYE0
+rAOxgmd4vbBUdGgBrhkIMkBMpFBZAYxjamDNtCimEJkyNglGQopkmQGuEqKp0NB0
+plPApaC1LY4rhZGISaqFZdyudoif8LiUvNVZlRXKyA2NzR4TfLRQ7vipf7/fqeU5
+PyYPnK+6TFNDF46cGJ71sG3dikLp6bdI39WTnrLnXlHs9cX80r7Otiwlmr+lY75s
+HUw9KRie9r1p2rP1Q7GmhXZP1vtSz91fe+lwmsV6J848UXBfGUiF2ic8TtWX9B/N
+q5xyp/zC0oq8YdXYWVvyq+vagkoye20Da17VPGaoPZKZetWPbi0YnLpvaO5Hd/qT
+eW97u9I7jC83ylcef9SSMyNZ3vm1qPTb4LjsJSG7bnfB3bNP5+42G7PfzdyVNNQ1
+PdcXt2qHKj4PHDy3+vmH7z/fzHmT8WlKxdr20k3p9pfai+ailkXnD/SezjqTbNpg
+l5VNuvGgrP95d0FJVWbqyo6cY6sOnPwNB+hB8w==
+=JBI8
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mullnerzoltan
+
+==================================================================
